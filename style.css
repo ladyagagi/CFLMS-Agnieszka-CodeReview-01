@@ -1,0 +1,143 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+}
+
+.clr{
+	clear: both;
+}
+                 /* -------- header ------------*/
+header {
+	background-color: #CABBB7;
+	min-height: 170px;
+	width: 100%;
+	margin: 0;
+}
+             
+#header-text {
+	width: 70%;
+	float: left;
+	text-align: center;
+	padding-top: 65px;
+	box-sizing: border-box;
+	font-size: 1.5em;
+}
+
+#logo {
+	float: right;
+	width: 30%;
+	padding: 30px 40px 30px 0;
+	box-sizing: border-box;
+}
+
+				 /* -------- navigation ------------*/
+nav {
+	background-color: #C65251;
+	
+}
+
+#mainnav ul {
+	list-style: none;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 50px;
+	text-align: right;
+	margin: 0;
+}
+
+#mainnav li {
+	display: inline;
+	padding-right: 13px;
+}
+
+#mainnav a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 25px;
+	font-weight: bold;
+}
+					 /* -------- middle part .heading ------------*/
+
+
+#heading {
+	font-size: 4em;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 60px;
+}
+
+main {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	
+}
+					 /* -------- section phone ------------*/
+#phone {
+	margin-bottom: 25px;
+}
+
+#phone img {
+	width: 100%;
+}
+					 /* -------- section ATM Scooter ------------*/
+#atmscooter {
+	height: 200px;
+	margin-bottom: 25px;
+}
+
+#atmscooter img {
+	height: 100%;
+	width: 100%;
+
+}
+
+#ATM {
+	width: 50%;
+	float: left;
+	padding-right: 15px;
+	box-sizing: border-box;
+}
+
+#ATM img {
+	
+}
+
+#scooter{
+	width: 50%;
+	float: right;
+	padding-left: 15px;
+	box-sizing: border-box;
+}
+					 /* -------- footer ------------*/
+#footer {
+	text-align: center;
+	background-color: #CABBB7;
+	min-height: 100px;
+	margin-bottom: 0;
+	padding-bottom: 15px;
+}
+
+#footer img {
+	margin-top: 15px;
+	width: 20%;
+}
+
+/*
+@media(max-width: 600px){
+	ul {
+		width: 100%;
+		float: none;
+	}
+
+	#atm{
+		width: 100%;
+		float: none;
+	}
+
+	#scooter{
+		width: 100%;
+		float: none;
+	}
+} */
